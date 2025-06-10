@@ -82,7 +82,7 @@ import seaborn as sns
 # Load saved models and data
 scaler = joblib.load('new_scaler.pkl')
 kmeans_model = joblib.load('kmeans_model.pkl')
-segmented_df = pd.read_csv('D:\\bank_segmentation_project\\customer_segments.csv')
+segmented_df = pd.read_csv('customer_segments.csv')
 
 # Segment action mapping 
 segment_actions = {
